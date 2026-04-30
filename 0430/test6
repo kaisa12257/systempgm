@@ -1,0 +1,13 @@
+#!/bin/bash
+
+# 1. 현재 날짜를 test6_result 파일에 새로 쓰기
+date > test6_result
+
+# 2. 현재 접속 중인 사용자 정보를 test6_result 파일에 덮어쓰기
+who > test6_result
+
+# 3. 다시 날짜 정보를 test6_result 파일 끝에 추가하기
+date >> test6_result
+
+# 4. 최종 결과 화면에 보여주기
+cat test6_result
