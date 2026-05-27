@@ -26,6 +26,4 @@ Set-User-ID (SetUID): 파일 실행 중에 프로세스의 유효 사용자 ID(E
 설정 방식: chmod 4755 파일명 또는 chmod u+s 파일명 (8진수 맨 앞자리 4 부여)
 Set-Group-ID (SetGID): 파일 실행 중에 해당 프로세스의 유효 그룹 ID가 파일 소유 그룹의 권한으로 임시 전환됩니다.
 
-권한 표시: 그룹 권한 자리에 s로 표시됩니다. (예: -r-xr-sr-x /bin/wall)
 
-설정 방식: chmod 2755 파일명 또는 chmod g+s 파일명 (8진수 맨 앞자리 2 부여)
